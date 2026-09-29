@@ -1,26 +1,20 @@
-# hou-day
-HOU DAY personal productivity app
-HOU DAY 2
-│
-├── 🏠 Today
-│   ├── Timeline
-│   ├── Next Action
-│   └── Daily Progress
-│
-├── 📋 Planner
-│   ├── Add task
-│   ├── Auto schedule
-│   └── Re-plan
-│
-├── ⏱ Focus
-│   ├── Pomodoro
-│   ├── Current task
-│   └── Break
-│
-├── 🧠 AI Coach
-│   ├── Morning briefing
-│   ├── Break big task
-│   ├── Re-plan
-│   └── Evening review
-│
-└── ⚙️ Settings
+hou-day/
+├── .github/
+│   └── workflows/
+│       └── android.yml
+├── app/
+│   ├── build.gradle.kts
+│   └── src/
+│       └── main/
+│           ├── AndroidManifest.xml
+│           ├── java/
+│           │   └── com/
+│           │       └── hou/
+│           │           └── day/
+│           │               └── MainActivity.kt
+│           └── res/
+│               └── values/
+│                   └── styles.xml
+├── build.gradle.kts
+├── gradle.properties
+└── settings.gradle.kts
